@@ -1,8 +1,16 @@
 import React from 'react'
+import { ThemeProvider } from 'styled-components'
+import { theme } from './theme'
+import { Div } from './app-styled'
+import Card from './card/card'
 
 const App = () => {
   return (
-    <div>App</div>
+    <ThemeProvider theme={theme}>
+      <Div>
+        <Card />
+      </Div>
+    </ThemeProvider>
   )
 }
 

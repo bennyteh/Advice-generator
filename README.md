@@ -1,1 +1,1 @@
-# Practice from frontend
+# Practice from frontend-mentor
